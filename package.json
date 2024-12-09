@@ -1,0 +1,48 @@
+{
+  "name": "string-utils-package",
+  "version": "1.0.0",
+  "description": "A lightweight utility library for effortless string manipulation. Simplify common tasks like case validation, conversion and formatting with easy-to-use functions that enhance your JavaScript applications",
+  "main": "dist/index.js",
+  "author": "Simon Grashinovski",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonGrasinovski/string-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simonGrasinovski/string-utils/issues"
+  },
+  "keywords": [
+    "string",
+    "string-manipulation",
+    "string-utils",
+    "utility",
+    "text",
+    "formatting",
+    "case-conversion",
+    "trim",
+    "substring",
+    "javascript",
+    "node",
+    "helper",
+    "string-functions",
+    "text-utilities",
+    "string-formatter"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "jest": "^29.7.0"
+  }
+}
